@@ -1,0 +1,28 @@
+Cython
+easydict
+h5py
+huggingface-hub
+imageio
+matplotlib
+metric-learn
+multidict
+numpy
+opencv-python
+pandas
+Pillow
+pytorch-lightning
+PyYAML
+scikit-image
+scikit-learn
+scipy
+tensorboard
+tensorflow
+timm
+tokenizers
+tqdm
+yacs
+torch >= 1.10.0
+torchvision >= 0.11.0
+prettytable
+nltk==3.8.1
+
