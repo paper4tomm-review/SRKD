@@ -8,7 +8,7 @@ from reid.loss import objectives
 import torch.distributed as dist
 from .pos_embed import get_2d_sincos_pos_embed
 
-class IRRA(nn.Module):
+class SRKD(nn.Module):
     def __init__(self, args, num_classes=11003):
         super().__init__()
         self.args = args
@@ -273,7 +273,7 @@ class IRRA(nn.Module):
 
 
 def build_model(args, num_classes=11003):
-    model = IRRA(args, num_classes)
+    model = SRKD(args, num_classes)
     # covert model to fp16
     # convert_weights(model)
     return model

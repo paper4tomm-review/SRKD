@@ -187,7 +187,7 @@ def do_train(start_epoch, num_epoch, args, model, old_model, train_loader, evalu
 
 def do_inference(model, test_img_loader, test_txt_loader):
 
-    logger = logging.getLogger("IRRA.test")
+    logger = logging.getLogger("SRKD.test")
     logger.info("Enter inferencing")
 
     evaluator = Evaluator(test_img_loader, test_txt_loader)
